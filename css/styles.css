@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-image: url(../imagenes/fondo.webp);
+    cursor: url(../imagenes/cursor-pico.webp), default;
+}
+
+a:hover {
+    cursor: url(../imagenes/cursor-espada.webp), default;
+}
+
+#logo {
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+ } 
+
+img {
+    display: block;    
+    margin: auto;
+ }
+
+ .page { 
+    background-color: #c5c1ba;
+    margin: 0 auto;
+    width: 1366px;
+}
+
+nav {
+    background-color:rgb(173, 232, 106);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.nav-enlace {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
+    padding: 10px 40px;
+    margin: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+h3 {
+    color: #a7845a;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 0px 150px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #a7845a;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    
+}
+
+p {
+    padding: 0px 150px;
+    margin: 0; 
+} 
+
+#intro {
+    text-align: center;
+    margin: 20px 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.imagenes {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+} 
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #a7845a;
+    color: white;
+    margin: 0;
+    font-size: 50px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+ul li {
+    text-align: justify;
+    list-style-position: inside;
+    padding: 5px 115px;
+}
+
+li ul li {
+    padding: 0px;
+}
+
+.nav-enlace:active, .nav-enlace:hover{
+    color: #a7845a;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: lightgray;
+}
+
+#botonVolver:hover, #botonVolver:active {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #c5c1ba;
+}
+
+footer p, footer a {
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li p {
+    display: inline;
+    padding: 5px;
+}
+
+li a, p a {
+    color: #a7845a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer img {
+    margin: 20px auto;
+}
+
+footer a {
+    height: 150px;
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-image: url(../imagenes/fondo_footer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#creeper-mob, #esqueleto-mob, #zombi-mob, #enderman-mob, #araña-mob {
+    margin-top: 90px;
+    display: inline;
+    padding: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#creeper-mob {
+    background-image: url(../imagenes/icono-creeper.webp);
+}
+
+#esqueleto-mob {
+    background-image: url(../imagenes/icono-esqueleto.webp);
+}
+
+#zombi-mob {
+    background-image: url(../imagenes/icono-zombi.webp);
+}
+
+#enderman-mob {
+    background-image: url(../imagenes/icono-enderman.webp);
+}
+
+#araña-mob {
+    background-image: url(../imagenes/icono-araña.webp);
+}
+
+.criaturas {
+    display: inline;
+    padding-right: 10px;
+}
+
+.criaturas-info {
+    margin: 20px 0px;
+}
+
+#integrantes {
+    margin-bottom: 0;
+}
+
+.TarjetaPresentacion{
+    background-color:  rgb(173, 232, 106);
+    text-align: center;
+    padding: 30px;
+}
+
+.TarjetaPresentacion h2 {
+    width: 650px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer li {
+    font-size: 24px;
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tarjetaMateo img, .tarjetaMaky img {
+    display: block;
+    margin: auto;
+}
+
+.tarjetaMateo img:hover, .tarjetaMaky img:hover {
+    transform: none;
+    transition: none;
+}
+
+#infoE {
+    margin-bottom: 10px;
+}
+
+dl {
+    padding: 0px 150px;
+    list-style-type: none;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #a7845a;
+    text-decoration: underline;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    text-transform: none;
+}
+
+dd::before {
+    content: "\021b3";
+    position: absolute;
+    left: -15px;
+}
+
+li::before {
+    content: attr(data-label);
+    font-weight: bold;
+}
+
+blockquote, cite {
+    margin: 20px auto;
+    padding: 0px 150px;
+}
+
+blockquote p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+blockquote cite {
+    font-size: 18px;
+}
